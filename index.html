@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheGymDeals</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!-- Barra de navegación -->
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg py-4 py-lg-0 bg-info shadow">
+        <div class="container px-4">
+          <img
+            src="./assets/img/logo_GD.jpg"
+            alt="Logo de la página"
+            class="Logo-GD"
+          />
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#top-navbar"
+            aria-controls="top-navbar"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="top-navbar"
+            aria-labelledby="top-navbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="top-navbarLabel">Menú</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Precios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Contáctanos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contenido de Página (tarjetas) -->
+    <main>
+      <div class="container-fluid mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mx-2 mx-md-4 mx-lg-5">
+          <!-- Smart fit -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="./assets/img/Smartfit_cupon1.jpg"
+                class="card-img-top"
+                alt="Imagen del gimnasio Smart fit"
+              />
+              <div class="card-body px-4 py-3">
+                <h5 class="card-title">Smart fit</h5>
+                <p class="card-text">
+                  Subscripción trimestral en sedes plus
+                  <br />
+                </p>
+                <p class="card-text">
+                  <i class="fas fa-map-marker-alt"></i> Los Militares 5890,
+                  Nivel -1, 5890 - Las Condes Santiago, Región Metropolitana
+                </p>
+                <hr class="line-break" />
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="card-text"><s>$189.990</s></p>
+                  <p class="card-text">
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-sm custom-btn-size"
+                    >
+                      $125.990
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Gimnasio Pacific -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="./assets/img/Pacific_cupon2.jpg"
+                class="card-img-top"
+                alt="Imagen del gimnasio Pacific"
+              />
+              <div class="card-body px-4 py-3">
+                <h5 class="card-title">Gimnasio Pacific</h5>
+                <p class="card-text">
+                  Subscripción freepass anual en sede Irarrázaval
+                  <br />
+                </p>
+                <p class="card-text">
+                  <i class="fas fa-map-marker-alt"></i> Av. Irarrázaval 801,
+                  Ñuñoa, Región Metropolitana, Chile
+                </p>
+                <hr class="line-break" />
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="card-text"><s>$276.990</s></p>
+                  <p class="card-text">
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-sm custom-btn-size"
+                    >
+                      $83.097
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Sportlife -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="./assets/img/Sportlife_cupon3.jpeg"
+                class="card-img-top"
+                alt="Imagen del gimnasio Sportlife"
+              />
+              <div class="card-body px-4 py-3">
+                <h5 class="card-title">Sportlife</h5>
+                <p class="card-text">
+                  Subscripción semestral + 8 sesiones de entrenamiento personal
+                  <br />
+                </p>
+                <p class="card-text">
+                  <i class="fas fa-map-marker-alt"></i> Av Vitacura 2640, Las
+                  Condes, Región Metropolitana
+                </p>
+                <hr class="line-break" />
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="card-text"><s>$456.455</s></p>
+                  <p class="card-text">
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-sm custom-btn-size"
+                    >
+                      $205.404
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Acqua Tiempo -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="./assets/img/acqua_cupon4.jpg"
+                class="card-img-top"
+                alt="Imagen de Acqua tiempo fitness, spa y piscina"
+              />
+              <div class="card-body px-4 py-3">
+                <h5 class="card-title">Acqua Tiempo</h5>
+                <p class="card-text">
+                  50% descuento en todos los paquetes mensuales de acquabike
+                  <br />
+                </p>
+                <p class="card-text">
+                  <i class="fas fa-map-marker-alt"></i> Av. Ejército Libertador
+                  346, Santiago Centro, Region Metropolitana
+                </p>
+                <hr class="line-break" />
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="card-text"><s>$198.000</s></p>
+                  <p class="card-text">
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-sm custom-btn-size"
+                    >
+                      $99.00
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Espacio Imagine -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="./assets/img/espacioimagine_cupon5.jpg"
+                class="card-img-top"
+                alt="Imagen del estudio de pilates espacio imagine"
+              />
+              <div class="card-body px-4 py-3">
+                <h5 class="card-title">Espacio Imagine</h5>
+                <p class="card-text">
+                  Promo Pilates Reformer (4 clases)
+                  <br />
+                </p>
+                <p class="card-text">
+                  <i class="fas fa-map-marker-alt"></i> Av. Salvador 1774 -
+                  Providencia/Ñuñoa, Santiago, Región Metropolitana
+                </p>
+                <hr class="line-break" />
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="card-text"><s>$29.500</s></p>
+                  <p class="card-text">
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-sm custom-btn-size"
+                    >
+                      $20.000
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Savittar yoga -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="./assets/img/savittar_cupon6.jpg"
+                class="card-img-top"
+                alt="Imagen del estudio de yoga Savittar"
+              />
+              <div class="card-body px-4 py-3">
+                <h5 class="card-title">Savittar Yoga</h5>
+                <p class="card-text">
+                  1 Clase de Yoga GRATIS
+                  <br />
+                </p>
+                <p class="card-text">
+                  <i class="fas fa-map-marker-alt"></i> Los Militares 5890,
+                  Nivel -1, 5890 - Las Condes Santiago, Región Metropolitana
+                </p>
+                <hr class="line-break" />
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="card-text"><s>$27.00</s></p>
+                  <p class="card-text">
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-sm custom-btn-size"
+                    >
+                      $0
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Pié de página -->
+    <footer>
+      <!-- Sección del formulario -->
+      <div class="container-fluid bg-dark py-5 full-width-bg mb-4 form-section">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <h3 class="text-center text-white mb-4">
+                ¡Suscríbete para más información sobre nuestros cupones!
+              </h3>
+              <div class="mb-3 text-center">
+                <label for="email" class="form-label text-white"
+                  >Correo Electrónico</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Ingresa tu correo"
+                />
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-light btn-sm">
+                  Suscribirse
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección de texto en el pie de página -->
+      <div class="footer-content text-center py-3">
+        <h6 class="footer-text-title"><b>TheGymDeals</b></h6>
+        <p class="footer-text">
+          &copy; 2018 TheGymDeals LLC. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+/* Aquí solo se aplicaron algunos estilos, ya que el resto se manejó
+directamente en Booststrap */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.Logo-GD {
+  max-width: 150px;
+}
+
+/* Navbar */
+
+.nav-link {
+  font-weight: 300;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  transform: scale(0.95);
+  color: #707070a0;
+}
+
+.btn-close {
+  font-size: 1rem;
+}
+
+/* tarjetas (main) */
+
+.card {
+  height: 100%;
+  width: auto;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px #707070;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  font-weight: 300;
+}
+
+.card-text s {
+  color: #707070;
+}
+
+.custom-btn-size {
+  width: 100px;
+}
+
+.btn.btn-secondary {
+  color: #fff;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+/* Formulario y footer */
+
+.big-info {
+  background-color: #212529;
+}
+
+.form-section {
+  margin-top: 2rem;
+}
+
+form h3 {
+  font-size: 2rem;
+}
+
+.btn.btn-light {
+  color: #fff;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+.footer-text-title {
+  font-size: 20px;
+  color: #212529;
+  font-weight: 300;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #777;
+}
